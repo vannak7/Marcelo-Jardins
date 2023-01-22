@@ -88,7 +88,7 @@ nav ul li a:hover {
     color: green;
 }
 
-section.start {
+main.start {
     /* width: 1730px; */
     height: 600px;
     background: url(/assets/grass.jpg);
@@ -126,10 +126,44 @@ section.start {
     font-size: 80px;
 }
 
-#test {
+#service-title {
     background: green;
     color: white;
     padding: 20px 0px 20px 0px;
     text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 30% 30% 30%;
+    margin: 5px 20px 5px 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #eff0e7;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.services-card {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.card-img{
+    margin-top: 4px;
+}
+
+.card-body {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+p.card-text {
+    font-size: 14px;
+    margin-top: 5px;
 }
 
