@@ -47,6 +47,8 @@
     margin-right: 10px;
 }
 
+/* MENUS CABEÇALHO */
+
 header {
     display: grid;
     grid-auto-flow: column;
@@ -86,7 +88,10 @@ nav ul li a {
 nav ul li a:hover {
     cursor: pointer;
     color: green;
+    font-size: 20px;
 }
+
+/* BANNER PRINCIPAL */
 
 main.start {
     /* width: 1730px; */
@@ -99,7 +104,6 @@ main.start {
     grid-template-columns: 0 auto;
     align-items: center;
     text-align: center;
-
 }
 
 #title {
@@ -126,6 +130,8 @@ main.start {
     font-size: 80px;
 }
 
+/* SERVIÇOS */
+
 #service-title {
     background: green;
     color: white;
@@ -137,11 +143,12 @@ main.start {
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-columns: 30% 30% 30%;
-    margin: 5px 20px 5px 20px;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.card {
+.cards {
     background-color: #eff0e7;
     border-radius: 20px;
     margin: 10px;
@@ -162,8 +169,117 @@ main.start {
     margin-right: 15px;
 }
 
+.card-body h5 {
+    font-weight: bold;
+}
+
 p.card-text {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 5px;
 }
 
+/* FOTOS teste 1*/
+
+
+.carrossel {
+    background: url(/assets/banner3.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.carrossel-items {
+    display: flex;
+    overflow-x: hidden;
+    padding: 0px;
+    gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    list-style-type: none;
+    
+    
+
+    /* max-width: 540px;
+    min-height: 540px;
+    text-align: center;
+
+    align-items: center;
+    width: 100%;
+    height: 100%;
+     */
+}
+
+.c-item {
+    max-width: 400px;
+    min-width: 400px;
+    box-shadow: 10px 20px 10px 1px rgba(0, 0, 0, 0.8);
+
+    /* height: 600px; */
+}
+
+.c-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+/* 
+
+
+
+
+ul li {
+    max-width: 440px;
+    min-width: 440px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    list-style-type: none;
+
+}
+
+.c-item img {
+    width: 100%;
+    height: 100%;
+
+} */
+
+/* FOTOS teste 2*/
+
+
+
+
+
+
+/* CLIENTES */
+
+
+
+
+
+
+
+
+/* RODAPÉ */
+
+#fraze1 {
+    background-color: #eff0e7;
+    padding: 20px;
+    text-align: center;
+    background: url(/assets/banner22.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#fraze1 h2 {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #36513d;
+}
