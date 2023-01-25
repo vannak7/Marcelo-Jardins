@@ -95,7 +95,7 @@ nav ul li a:hover {
 
 main.start {
     /* width: 1730px; */
-    height: 600px;
+    height: 640px;
     background: url(/assets/grass.jpg);
     background-size: cover;
     background-position: center;
@@ -217,7 +217,6 @@ p.card-text {
     min-width: 400px;
     box-shadow: 10px 20px 10px 1px rgba(0, 0, 0, 0.8);
 
-    /* height: 600px; */
 }
 
 .c-item img {
@@ -228,46 +227,89 @@ p.card-text {
     
 }
 
-/* 
 
-
-
-
-ul li {
-    max-width: 440px;
-    min-width: 440px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    list-style-type: none;
-
+#fraze1 {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #eff1ef;
 }
 
-.c-item img {
-    width: 100%;
-    height: 100%;
-
-} */
-
-/* FOTOS teste 2*/
-
-
-
-
-
+#fraze1 h2 {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #36513d;
+}
 
 /* CLIENTES */
 
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 1em 6em 1em;
+    /* width: 100%; */
+    margin: 0 auto;
+    background-color: #eff1ef;
+}
+.cliente {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-tertiary);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.1);
+    width: 267px;
+}
 
+.cliente:hover {
+    box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.3);
+}
 
+.cliente h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
+.cliente p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
 
+.cliente .cliente-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#cliente-1 {
+    background-image: url(/img/IMG1.JPG);
+    border: 5px solid white;
+}
+
+#cliente-2 {
+    background-image: url(/img/IMG1.JPG);
+    border: 5px solid white;
+}
+
+#cliente-3 {
+    background-image: url(/img/IMG1.JPG);
+    border: 5px solid white;
+}
 
 
 
 /* RODAPÉ */
 
-#fraze1 {
+#final {
     background-color: #eff0e7;
     padding: 20px;
     text-align: center;
@@ -275,11 +317,4 @@ ul li {
     background-size: cover;
     background-position: center;
     height: 600px;
-}
-
-#fraze1 h2 {
-    font-family: 'Dancing Script', cursive;
-    padding-top: 50px;
-    font-size: 40px;
-    color: #36513d;
 }
