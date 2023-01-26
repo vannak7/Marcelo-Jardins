@@ -305,13 +305,34 @@ p.card-text {
 
 /* Sobre nós */
 
-.nos {
+#aboutUs-title {
     background: url(/assets/fundo2.png);
     background-size: cover;
     background-position: center;
 }
 
+#aboutUs-title h1 {
+    font-size: 80px;
+    color: #36513d;
+    padding-left: 200px;
+    padding-top: 100px;
+}
 
+.nos {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px 100px 200px;
+    gap: 5em;
+    width: 500px;
+}
+
+.nos-item {
+    padding-bottom: 50px;
+}
+
+.col h2 {
+    color: #36513d;
+}
 
 
 /* RODAPÉ */
