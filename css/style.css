@@ -185,8 +185,8 @@ p.card-text {
     background: url(/assets/banner3.jpeg);
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -199,23 +199,12 @@ p.card-text {
     padding-left: 2rem;
     padding-right: 2rem;
     list-style-type: none;
-    
-    
-
-    /* max-width: 540px;
-    min-height: 540px;
-    text-align: center;
-
-    align-items: center;
-    width: 100%;
-    height: 100%;
-     */
 }
 
 .c-item {
-    max-width: 400px;
-    min-width: 400px;
-    box-shadow: 10px 20px 10px 1px rgba(0, 0, 0, 0.8);
+    max-width: 380px;
+    min-width: 380px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.8);
 
 }
 
@@ -231,13 +220,20 @@ p.card-text {
 #fraze1 {
     text-align: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     background-color: #eff1ef;
+    background-image: url(/assets/fundo-borboletas.png);
+    background-size: cover;
+    /* background-position: center; */
+    
+
 }
+
 
 #fraze1 h2 {
     font-family: 'Dancing Script', cursive;
-    padding-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     font-size: 40px;
     color: #36513d;
 }
@@ -269,7 +265,7 @@ p.card-text {
 .cliente:hover {
     box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.3);
 }
-
+ 
 .cliente h3 {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -288,6 +284,7 @@ p.card-text {
     background-size: cover;
     background-position: center;
     margin-bottom: 1em;
+    box-shadow: 7px 7px 15px 2px rgba(0, 0, 0, 0.07);
 }
 
 #cliente-1 {
@@ -304,6 +301,16 @@ p.card-text {
     background-image: url(/img/IMG1.JPG);
     border: 5px solid white;
 }
+
+
+/* Sobre nós */
+
+.nos {
+    background: url(/assets/fundo2.png);
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
