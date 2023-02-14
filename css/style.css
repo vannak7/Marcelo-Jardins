@@ -43,6 +43,10 @@
     letter-spacing: 2px;
 }
 
+#top-contact p {
+    font-size: 20px;
+}
+
 #top-contact img {
     margin-right: 10px;
 }
